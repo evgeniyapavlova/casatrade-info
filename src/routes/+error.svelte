@@ -1,7 +1,6 @@
 <section>
-	<div class="text-xl">404</div>
-	<div class="text-l">Something went wrong</div>
-	<a class="text-l" href="https://casatrade.info/en">casatrade.info</a>
+	<div class="error-num">404</div>
+	<div class="error-text">Something went wrong</div>
 </section>
 
 <style>
@@ -11,5 +10,12 @@
 		align-items: center;
 		justify-content: center;
 		flex-direction: column;
+	}
+
+	.error-num {
+		font-size: 40px;
+	}
+	.error-text {
+		font-weight: 22;
 	}
 </style>
