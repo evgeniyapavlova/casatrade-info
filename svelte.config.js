@@ -4,10 +4,10 @@ import path from 'path';
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
-		paths: {
-			base: process.env.NODE_ENV === 'production' ? '/casatrade-info' : ''
-		}
+		adapter: adapter()
+		// paths: {
+		// 	base: process.env.NODE_ENV === 'production' ? '/casatrade-info' : ''
+		// }
 	},
 	alias: {
 		$lib: path.resolve('src/lib'),

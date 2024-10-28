@@ -1,11 +1,11 @@
 <script>
 	import { lang } from '$lib/stores/lang';
 	import MainPageNew from '$comps/AllBlocks.svelte';
-	import meta_img from '$lib/images/meta__img__en.jpg';
-	const title = 'Casatrade: uma plataforma de negociação para se sentir em casa';
-	const desc = 'Negocie FX, ações, criptomoedas e Opções com 90% de lucratividade';
+	import meta_img from '$lib/images/meta__img__es.jpg';
+	const title = 'Casatrade — una plataforma de trading que es cómo estar en casa';
+	const desc = 'Opera con FX, valores, criptomonedas, y opciones con 90% de rentabilidad';
 
-	$lang = 'pt';
+	$lang = 'es';
 </script>
 
 <svelte:head>
@@ -20,4 +20,4 @@
 	<meta name="twitter:image" content={meta_img} />
 </svelte:head>
 
-<MainPageNew lang="pt" />
+<MainPageNew lang="es" />
