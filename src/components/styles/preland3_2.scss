@@ -1,0 +1,35 @@
+body {
+	background-color: var(--bgr-3-2);
+}
+
+#popup {
+	background-color: rgba(255, 255, 255, 0.3);
+	backdrop-filter: blur(60px);
+	-webkit-backdrop-filter: blur(60px);
+}
+
+section[data-lang='pt'] {
+	@media screen and (max-width: 720px) {
+		background-image: url(/images/bgr_3_2/mobile_pt.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr_3_2/mobile_pt@2x.jpg);
+		}
+	}
+
+	@media screen and (min-width: 721px) {
+		background-image: url(/images/bgr_3_2/desktop_pt.jpg);
+	}
+}
+
+section {
+	background-size: cover;
+	@media screen and (max-width: 800px) {
+		background-image: url(/images/bgr_3_2/mobile.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr_3_2/mobile@2x.jpg);
+		}
+	}
+	@media screen and (min-width: 801px) {
+		background-image: url(/images/bgr_3_2/desktop.jpg);
+	}
+}

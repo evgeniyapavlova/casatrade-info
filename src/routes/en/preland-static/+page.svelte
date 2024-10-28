@@ -1,6 +1,6 @@
 <script>
 	import { lang } from '$lib/stores/lang';
-	import MainPageNew from '$comps/AllBlocks.svelte';
+	import MainPageNew from '$comps/AllBlocksPrelandStatic1.svelte';
 	import meta_img from '$lib/images/meta__img__en.jpg';
 	const title = 'Casatrade — a trading platform that feels like home';
 	const desc = 'Trade FX, stocks, crypto, and options with 90% profitability';

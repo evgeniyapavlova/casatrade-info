@@ -1,6 +1,6 @@
 <script>
 	import { lang } from '$lib/stores/lang';
-	import MainPageNew from '$comps/AllBlocks.svelte';
+	import MainPageNew from '$comps/AllBlocksPrelandStatic1.svelte';
 	import meta_img from '$lib/images/meta__img__en.jpg';
 	const title = 'Casatrade - online trading platform for beginners';
 	const desc = 'Online trading platform for beginners. Trade online—Stocks and Cryptocurrency';

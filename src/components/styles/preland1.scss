@@ -1,0 +1,52 @@
+body {
+	background-color: var(--bgr-1);
+}
+
+section[data-lang='pt'] {
+	@media screen and (max-width: 720px) {
+		background-image: url(/images/bgr/mobile_pt.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr/mobile_pt@2x.jpg);
+		}
+	}
+
+	@media screen and (min-width: 721px) {
+		background-image: url(/images/bgr/desktop_pt.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr/desktop_pt@2x.jpg);
+		}
+	}
+}
+
+section {
+	@media screen and (max-width: 720px) {
+		background-size: 800px auto;
+		background-image: url(/images/bgr/mobile.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr/mobile@2x.jpg);
+		}
+		@media screen and (max-height: 720px) {
+			background-position: center top -200px;
+		}
+	}
+
+	@media screen and (min-width: 721px) {
+		background-size: 1000px auto;
+		background-image: url(/images/bgr/desktop.jpg);
+		@media screen and (-webkit-min-device-pixel-ratio: 2), (min-device-pixel-ratio: 2) {
+			background-image: url(/images/bgr/desktop@2x.jpg);
+		}
+		@media screen and (max-height: 790px) {
+			background-position: center top;
+		}
+		@media screen and (max-height: 600px) {
+			background-size: 800px auto;
+		}
+	}
+}
+
+#popup {
+	background-blend-mode: soft-light, normal, luminosity;
+	background-color: rgba(155, 142, 239, 0.7);
+	backdrop-filter: blur(44px);
+}

@@ -49,9 +49,6 @@
 <style>
 	#popup {
 		border-radius: 12px;
-		background-blend-mode: soft-light, normal, luminosity;
-		background-color: rgba(155, 142, 239, 0.7);
-		backdrop-filter: blur(44px);
 		padding: 10px 16px 10px 10px;
 		position: fixed;
 		top: 34px;

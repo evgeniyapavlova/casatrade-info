@@ -1,6 +1,6 @@
 <script>
 	import { lang } from '$lib/stores/lang';
-	import MainPageNew from '$comps/AllBlocks.svelte';
+	import MainPageNew from '$comps/AllBlocksPrelandStatic1.svelte';
 	import meta_img from '$lib/images/meta__img__es.jpg';
 	const title = 'Casatrade — una plataforma de trading que es cómo estar en casa';
 	const desc = 'Opera con FX, valores, criptomonedas, y opciones con 90% de rentabilidad';
